@@ -1,0 +1,17 @@
+@prefix schema: <https://schema.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/>
+
+<https://github.com/ddeschep/ddeschep.github.io>
+  a rdf:Document
+.
+
+<https://github.com/ddeschep/ddeschep.github.io/#me>
+  schema:memberOf <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
+  schema:name "Didier De Schepper" ;
+  schema:type "Person" 
+  foaf:knows https://janvanrensbergen.github.io/#me
+.
+
+<https://pietercolpaert.be/teaching/lds/#2024-2025> 
+    a <https://example.com#course> 
+.
