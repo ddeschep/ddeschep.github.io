@@ -1,0 +1,11 @@
+@prefix schema: <https://schema.org/> .
+
+<https://github.com/ddeschep/ddeschep.github.io/profile/me.ttl>
+  schema:memberOf <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
+  schema:name "Didier De Schepper" ;
+  schema:type "Person" 
+.
+
+<https://pietercolpaert.be/teaching/lds/#2024-2025> 
+    a <https://example.com#course> 
+.
