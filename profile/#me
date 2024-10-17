@@ -2,17 +2,14 @@
 @prefix foaf: <https://xmlns.com/foaf/0.1/> .
 @prefix rdf: <https://www.w3.org/2000/01/rdf-schema#>
 
-<https://github.com/ddeschep/ddeschep.github.io/#me>
+<https://ddeschep.github.io>
   a rdf:Document;
+  rdfs:label "Didier's website";
 .
 
-<https://github.com/ddeschep/ddeschep.github.io/#me>
+<https://ddeschep.github.io/profile/#me>
   schema:memberOf <https://pietercolpaert.be/teaching/lds/#2024-2025> ;
   schema:name "Didier De Schepper" ;
   schema:type "Person" 
   foaf:knows <https://janvanrensbergen.github.io/#me>
-.
-
-<https://pietercolpaert.be/teaching/lds/#2024-2025> 
-    a <https://example.com#course> 
 .
